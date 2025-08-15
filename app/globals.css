@@ -8,6 +8,7 @@
   --background: var(--color-primary);
   --foreground: #171717;
   --color-primary-400: #347433;
+  --color-primary-600: #285b27;
   --color-secondary-200: #FFC107;
   --color-secondary-900: #a07a0a;
 
@@ -20,6 +21,7 @@
 
 @theme {
   --color-primary-400: #347433;
+   --color-primary-600: #285b27;
   --color-primary-900: #062205;
   --color-secondary-200: #FFC107;
   --color-secondary-900: #a07a0a;

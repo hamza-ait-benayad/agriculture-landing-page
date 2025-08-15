@@ -3,7 +3,7 @@
 import 'swiper/css';
 import 'swiper/css/pagination';
 import React from 'react';
-import content from '../data/content.json'
+import {siteContent} from '../data/content'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import HeroImage from '../components/HeroImage';
@@ -18,17 +18,15 @@ const Hero = () => {
           clickable: true,
         }}
         loop={true}
-        
-        speed={600}
         parallax={true}
         autoplay={{
           delay: 3500,
-          disableOnInteraction: false,
+          disableOnInteraction: true,
         }}
         modules={[Parallax, Autoplay, Pagination, Navigation]}
         className="mySwiper h-full"
       >
-        {content.hero.map((content, key) => (
+        {siteContent.hero.map((content, key) => (
           <SwiperSlide className='relative' key={key}>
             <HeroImage src={content.image} title={content.Headline} description={content.description} Subheadline={content.Subheadline} />
           </SwiperSlide>
