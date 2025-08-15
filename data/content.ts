@@ -19,10 +19,17 @@ export interface ProductItem {
   image: string;
 }
 
+export interface Solutions {
+  title: string;
+  description: string;
+  image: string;
+}
+
 export interface SiteContent {
   hero: HeroItem[];
   statistics: StatisticItem[];
   products: ProductItem[];
+  solutions: Solutions[];
 }
 
 export const siteContent: SiteContent = {
@@ -91,6 +98,28 @@ export const siteContent: SiteContent = {
       description:
         "Durable, easy-to-use tools that make daily farming easier and more productive.",
       image: "/images/Tools&Equipment.jpg",
+    },
+  ],
+  solutions: [
+    {
+      title: "Farm Planning & Consultancy",
+      description: "Personalized guidance to plan your farm operations and boost efficiency.",
+      image: "/images/Farm Planning & Consultancy.jpg",
+    },
+    {
+      title: "Soil Testing & Analysis",
+      description: "Know your soil, grow better crops. We offer on-site and lab-based testing.",
+      image: "/images/Soil Testing.jpeg",
+    },
+    {
+      title: "Training & Workshops",
+      description: "Learn best practices in sustainable farming, crop management, and modern techniques.",
+      image: "/images/Training Workshops.jpg",
+    },
+    {
+      title: "After-Sales Support",
+      description: "We're with you even after the sale — expert advice, maintenance, and ongoing support.",
+      image: "/images/After-Sales.jpeg",
     },
   ],
 };
