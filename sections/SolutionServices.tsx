@@ -10,7 +10,7 @@ function SolutionServices() {
           <p className='text-sm text-primary-400 border border-primary-400 px-3 py-2 rounded-full w-max font-semibold '>Solution & Services</p>
           <h1 className='mt-3 text-2xl sm:text-5xl font-bold font-palanquin'>Helping Farmers Every Step of the Way</h1>
         </div>
-        <div className="flex flex-col sm:flex-row justify-between mx-auto w-full">
+        <div className="grid grid-cols-[repeat(auto-fit,minmax(320px,1fr))] justify-between gap-5 items-center  w-full">
           {siteContent.solutions.map((solution, key)=>(
             <div key={key}>
               <SolutionCard title={solution.title} description={solution.description} image={solution.image}/>

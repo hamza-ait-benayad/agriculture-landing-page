@@ -41,7 +41,7 @@ const Products = () => {
               </button>
             </div>
           </div>
-          <p className='text-primary-400/70 leading-6 text-lg w-2/5 mt-2'>We offer a wide range of agricultural products tailored to meet the needs of farmers at every stage.</p>
+          <p className='text-primary-400/70 leading-6 text-lg w-3/5 sm:w-2/5 mt-2'>We offer a wide range of agricultural products tailored to meet the needs of farmers at every stage.</p>
         </div>
         <div>
           <Swiper
