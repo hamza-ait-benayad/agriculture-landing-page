@@ -4,6 +4,7 @@ import NavBar from "@/components/NavBar";
 import Products from "@/sections/Products";
 import AboutUs from "@/sections/AboutUs";
 import SolutionServices from "@/sections/SolutionServices";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <section className="">
           <SolutionServices />
         </section>
+        <Footer/>
       </div>
 
     </>

@@ -19,19 +19,19 @@ const AboutUs = () => {
           </div>
           <div className='flex flex-col gap-4 sm:w-3/6 text-white  '>
             <p className='text-lg text-secondary-200 border border-secondary-200 px-3 py-5 rounded-full w-max font-semibold leading-0 '>About Us</p>
-            <h1 className='text-5xl font-bold mt-8'>We Grow with You</h1>
+            <h1 className='text-5xl font-bold mt-8 leading-18'>We Grow with You</h1>
             <div className='flex flex-col gap-5 mt-10'>
               <div>
                 <h2 className='text-xl font-semibold'>Designed for Small & Medium Farmers</h2>
-                <p className='text-white/60'>Our solutions are tailored to the unique needs of smaller farms, ensuring you get the right tools without</p>
+                <p className='text-white/60 mt-2'>Our solutions are tailored to the unique needs of smaller farms, ensuring you get the right tools without</p>
               </div>
               <div>
                 <h2 className='text-xl font-semibold'>Designed for Small & Medium Farmers</h2>
-                <p className='text-white/60'>Our solutions are tailored to the unique needs of smaller farms, ensuring you get the right tools without</p>
+                <p className='text-white/60 mt-2'>Our solutions are tailored to the unique needs of smaller farms, ensuring you get the right tools without</p>
               </div>
               <div>
                 <h2 className='text-xl font-semibold'>Designed for Small & Medium Farmers</h2>
-                <p className='text-white/60'>Our solutions are tailored to the unique needs of smaller farms, ensuring you get the right tools without</p>
+                <p className='text-white/60 mt-2'>Our solutions are tailored to the unique needs of smaller farms, ensuring you get the right tools without</p>
               </div>
 
             </div>
