@@ -28,6 +28,7 @@
 
   --font-neuton: var(--font-neuton), Sans-serif;
   --font-palanquin: var(--font-palanquin), Sans-serif;
+  --font-palanquin: var(--font-poppins), Sans-serif;
 }
 
 
@@ -50,14 +51,13 @@ body {
 
 /* 📌 List Item Styling */
 li {
-  color: white;
   cursor: pointer;
   padding-inline: 6px;
   transition: all 150ms ease-in-out;
 }
 
 li:hover {
-  color: var(--color-secondary-200);
+  color: var(--color-primary-400);
   border-radius: 15px;
 }
 
